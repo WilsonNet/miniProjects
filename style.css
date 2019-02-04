@@ -1,0 +1,45 @@
+.cats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cats-list {
+    display: flex;
+    flex-direction: column;
+}
+#cats-list button {
+    padding: 5px;
+    margin: 5px; 
+    width: 250px;
+    font-size: 25;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.cats div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cats div img {
+    margin-bottom: 10px;
+}
+
+#admin {
+    display: flex;
+}
+
+#form {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#form div {
+    display: flex;
+}
+
+.d-none {
+    display: none !important;
+}

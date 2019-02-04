@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cats">
+        <aside id="cats-list">
+
+        </aside>
+        <div>
+            <h2 id="cat-name">Cat Name</h2>
+            <img id="clickCat" src="img/cat.jpg" alt="Cat" title="Click me!">
+            <span id="clickCounter">Click counter</span>
+        </div>
+    </div>
+
+    <div id="admin">
+        <div>
+            <button id="adminButton">Admin</button>
+        </div>
+        <div>
+            <div id="form" class="d-none">
+                <input type="text" id="form-name" placeholder="name">
+                <input type="text" id="form-url" placeholder="url">
+                <input type="text" id="form-clicks"placeholder="clicks">
+                <div>
+                    <button id="cancelButton">Cancel</button>
+                    <button id="submitButton">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
